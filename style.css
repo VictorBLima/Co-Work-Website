@@ -521,6 +521,9 @@ header , main,   footer,html{
         font-size: 2rem;
         margin: auto;
     }
+    .pricing-box{
+        height: max-content;
+    }
 }
 @media  screen and (max-width:900px) {
     
@@ -530,6 +533,9 @@ header , main,   footer,html{
     .reserve-spot {
         width: 25%;
         margin-left: 38%;
+    }
+    .pricing-box{
+        height: max-content;
     }
 }
 
@@ -572,6 +578,7 @@ header , main,   footer,html{
 
     }
     .pricing-box{
+        height: max-content;
         width: 80%;
         font-size: 1.2rem;
         align-items: center;
